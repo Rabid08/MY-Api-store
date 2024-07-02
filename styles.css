@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: rgb(228, 178, 178);
+}
+
+header {
+    
+    width: 90%;
+    margin: 50px auto;
+    display:flex;
+    justify-content: space-between;
+} 
+.btn {
+    background-color: rgb(68, 104, 224);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(43, 43, 167);
+    cursor: pointer;
+    transition: 0.5s;
+}
