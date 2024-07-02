@@ -3,7 +3,7 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    background-color: rgb(228, 178, 178);
+    background-color: rgb(255, 255, 255);
 }
 
 header {
@@ -24,4 +24,35 @@ header {
     background-color: rgb(43, 43, 167);
     cursor: pointer;
     transition: 0.5s;
+}
+#Higlights-Section{
+    width: 70%;
+    margin: 50px auto;
+}
+#Higlights-Section > h2 { 
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 2px 2px 8px #a35353;
+    margin-bottom: 25px;
+
+}
+#Higlights-Section > p {
+    margin: 0 auto;
+    width: 50%;
+ color: rgb(92, 74, 74);   
+ text-align: center;
+ margin-bottom: 50px;
+}
+#buy-now-button{
+    display: flex;
+    justify-content: center;
+}
+#iphone-pic-section {
+    border: 2px solid black;
+    width: 55%;
+    margin: 50px auto;
+}
+#iphone-pic-section img {
+    width: 100%;
 }
