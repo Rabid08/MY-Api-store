@@ -3,7 +3,7 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: white;
 }
 
 header {
@@ -49,10 +49,51 @@ header {
     justify-content: center;
 }
 #iphone-pic-section {
-    border: 2px solid black;
     width: 55%;
     margin: 50px auto;
 }
 #iphone-pic-section img {
     width: 100%;
 }
+#search-section {
+    width: 70%;
+    margin: 50px auto;
+}
+#search-section > h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+#search-container {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgb(248, 217, 179);
+    display: flex;
+}
+#search-bar{
+    width: 75%;
+}
+#search-bar > input[type="text"] {
+    padding: 16px;
+    border: none;
+    outline: none;
+    width: 70%;
+    background-color: rgb(248, 217, 179) ;
+}
+#search-button{
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
